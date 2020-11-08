@@ -29,7 +29,7 @@
     width: 275px;
     height: 48px;
    /* margin-left: 101px;*/
-    background:url("./Logo.svg");
+    background:url("./images/Logo.svg");
 
 }
 #nav{
@@ -212,7 +212,7 @@ h1{
     /*
     display: flex;
     align-items: baseline; */
-    background-image: url(./quotes.png);
+    background-image: url(./images/quotes.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -288,36 +288,36 @@ h1{
    
 }
 #tech1{
-    background-image: url(./webpack.png);
+    background-image: url(./images/webpack.png);
 }
 #tech1:hover{
     transition: 0.3s;
-    background-image: url(./webpack_orange.png);
+    background-image: url(./images/webpack_orange.png);
 }
 
 #tech2{
-    background-image: url(./JS.png);
+    background-image: url(./images/JS.png);
    
 }
 #tech2:hover{
     transition: 0.3s;
-    background-image: url(./JS_orange.png);
+    background-image: url(./images/JS_orange.png);
 }
 
 #tech3{
-    background-image: url(./npm.png);
+    background-image: url(./images/npm.png);
 }
 #tech3:hover{
     transition: 0.3s;
-    background-image: url(./npm_orange.png);
+    background-image: url(./images/npm_orange.png);
 }
 
 #tech4{
-    background-image: url(./html5.png);
+    background-image: url(./images/html5.png);
 }
 #tech4:hover{
     transition: 0.3s;
-    background-image: url(./html5_orange.png);
+    background-image: url(./images/html5_orange.png);
 }
 .techIcon{
    
