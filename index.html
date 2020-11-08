@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K2 Group</title>
+    <style>
+        /* Open Sans Font from Google */
+        /* 300,400,600,700 */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+        /* Khula 400 */
+        @import url('https://fonts.googleapis.com/css2?family=Khula&display=swap');
+
+       
+    </style>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./slider.css">
+</head>
+<body>
+    <div id="background">
+        <header id="header">
+            <div id="logo"></div>
+            <nav id="nav">
+                <div>Wiadomości</div>
+                <div>Technologie</div>
+            </nav>
+        </header>
+        <div id="content">
+            <div id="contentL" class="slideshow-container">
+                 <div class="mySlides fade">
+                    <img src="./Robo.png" >
+                 </div>
+                
+                 <div class="mySlides fade">
+                    <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" >
+                 </div>
+                
+                <div class="mySlides fade">
+                    <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" >
+                </div>
+                
+                
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <br>
+            <div id="dots_container" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+                
+
+            </div>
+            <div id="contentR">
+                <div id="dzienForm">
+                    <div id="title">Dzień dobry</div>
+                    <button id="btn_log_in">Zaloguj się</button>
+                    <div id="lub">lub</div>
+                    <button id="btn_make_acc">Zarejestruj</button>
+                </div>
+            </div>
+        </div>
+        <div id="newsy">
+            <h1 id="newsMainTitle">Wiadomości</h1>
+            <div id="newsArticles">
+                <div id="column1" class="newsColumn">
+                    <!-- <div id="div0">
+                        <div div_and_q>
+                            <div class="quotes"></div>
+                            <div class="h2_title"></div>
+
+                        </div>
+                        
+                        <div></div>
+                        <div></div>
+                    </div>      -->
+                </div>
+                   
+                <div id="column2" class="newsColumn"> </div>
+               
+            </div>
+            
+            <div id="load_more">Załaduj więcej</div>
+
+        </div>
+        <div id="technologie">
+            <h1 id="technologie_title">Nashe Technologie</h1>
+            <div id="tech_content">
+                <a href="https://webpack.js.org" id="tech1" class="techIcon">
+                    
+                </a>
+                <a href="https://www.javascript.com" id="tech2" class="techIcon"></a>
+                <a href="https://www.npmjs.com" id="tech3" class="techIcon"></a>
+                <a href="https://html.spec.whatwg.org" id="tech4" class="techIcon"></a>
+            </div>
+            
+        </div>
+        <footer id="footer">
+            <div id="fotText">K2</div>
+        </footer>
+
+    </div>
+    <script src="./fetch.js"></script>
+    <script src="./slider.js"></script>
+</body>
+</html>
