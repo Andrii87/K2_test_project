@@ -59,11 +59,18 @@
                 else    {
                 document.getElementById("column2").appendChild(node);}
 
+
+                 //-----------this adds img_and_div_and_q  to the newsContainer-----------//
+                 var node = document.createElement("div");
+                 node.setAttribute("id", "img_and_div_and_q"+index);
+                 node.setAttribute("class", "img_and_div_and_q");
+                 document.getElementById("Div"+index).appendChild(node);
+
                 //-----------this adds div_and_q  to the newsContainer-----------//
                 var node = document.createElement("div");
                 node.setAttribute("id", "div_and_q"+index);
                 node.setAttribute("class", "div_and_quotes");
-                document.getElementById("Div"+index).appendChild(node);
+                document.getElementById("img_and_div_and_q"+index).appendChild(node);
 
                 //-----------this adds quotes  to the div_and_q-----------//
                 var node = document.createElement("div");
@@ -95,7 +102,7 @@
                 var img = document.createElement('img');
                 img.setAttribute("class", "newsImg");
                 img.src = array[index].image;
-                document.getElementById("Div"+index).appendChild(img);
+                document.getElementById("img_and_div_and_q"+index).appendChild(img);
 
                   //-----------this adds p to the new div-----------//
                   var node = document.createElement("p");
