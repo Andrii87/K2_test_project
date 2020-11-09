@@ -55,7 +55,12 @@
     text-align: left;
 
 }
-#nav div:hover{
+#nav a{
+    color: #272727;
+    text-decoration: none ;
+
+}
+#nav a:hover{
     color: #E06D00;
     transition: 0.3s;
 }

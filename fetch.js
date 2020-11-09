@@ -1,6 +1,6 @@
 
    
-         var i;
+         var i; //global variable for index
 
          //-----------this is initial fetch----------//
         fetch('https://my-json-server.typicode.com/TomaszJaworski/test-api/news')
