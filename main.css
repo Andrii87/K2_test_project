@@ -32,6 +32,16 @@
     background:url("./images/Logo.svg");
 
 }
+@media only screen and (max-width:620px) {/* For mobile phones: */
+     #logo{
+        width: 30px;
+        height: 30px;
+        background:url("./images/logo_mobile.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+}
 #nav{
     display: flex;
     flex-direction: row;
@@ -62,11 +72,8 @@
         padding-bottom: 5px;
         width: auto;
         height: auto;
-        
-        
-
-    
-  }
+       
+     }
 }
 #nav a{
     color: #272727;
@@ -103,7 +110,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.07);
       align-items: center;
 
     }
-  }
+}
 #contentL{
     /* margin: 0; */
     width: 49%;
@@ -131,8 +138,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.07);
     width: 51%;
     height: 100%;
     border-radius: 0px 20px 20px 0px;
-/*     
-    background-color: chocolate; */
+
     background-size: cover;
     background-position: center;
 
