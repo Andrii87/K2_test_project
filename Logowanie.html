@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logowanie -K2 Group</title>
+    <style>
+        /* Open Sans Font from Google */
+        /* 300,400,600,700 */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+        /* Khula 400 */
+        @import url('https://fonts.googleapis.com/css2?family=Khula&display=swap');
+
+       
+    </style>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./slider.css">
+     <link rel="stylesheet" href="./switch.css"> 
+</head>
+<body>
+    <div id="background">
+        <header id="header">
+            <div id="logo"></div>
+            <nav id="nav">
+                <div >
+                    <a href="#newsy"> Wiadomości</a>
+                </div>
+                <div>
+                    <a href="#technologie"> Technologie</a>
+                </div>
+            </nav>
+        </header>
+
+        <div id="content">
+            <div id="contentL" class="slideshow-container">
+                 <div class="mySlides fade">
+                    <img src="./images/Robo.png" >
+                 </div>
+                
+                 <div class="mySlides fade">
+                    <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" >
+                 </div>
+                
+                <div class="mySlides fade">
+                    <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" >
+                </div>
+                
+                
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <br>
+                <div id="dots_container" style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            </div>
+            
+            <!-- ------------- Log in form ---------------- -->
+
+            <div id="contentR">
+                <div id="logowanie" class="content">
+                    <h1 id="title">Zaloguj się </h1>
+                    <input type="text" class="form" id="login" placeholder="Login" > 
+                    <input type="password" class="form"  minlength="8" id="password" placeholder="Hasło"> 
+                    <!-- <input type="password" id="pwd" name="pwd"><br><br> -->
+                   
+                    <input id="s1" type="checkbox" class="switch">
+                        
+                    <button id="btn_zaloguj_dalej" class="btn_primary">Dalej</button>
+                    <a href="./rejestracja.html">nie mam konta</a>
+                </div>
+            </div>
+        </div>
+        
+      
+       
+
+    </div>
+    
+    <script src="./slider.js"></script>
+</body>
+</html>
