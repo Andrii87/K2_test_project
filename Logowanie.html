@@ -60,27 +60,35 @@
             <!-- ------------- Log in form ---------------- -->
 
             <div id="contentR">
-                <div id="logowanie" class="content">
-                    <h1 id="title">Zaloguj się </h1>
-                    <input type="text" class="form" id="login" placeholder="Login" > 
-                    <input type="password" class="form"  minlength="8" id="password" placeholder="Hasło"> 
-                    <!-- <input type="password" id="pwd" name="pwd"><br><br> -->
+                <!-- <div id="logowanie" class="content"> -->
+                <form class="content" id="logowanie_form" name="logowanie_form" action="/" onsubmit="return validateForm()" method="GET">
+                    <h1 id="title">Zaloguj się </h1><br>
+                    
+                    <input type="text" class="form" id="log_login" placeholder="Login" required> <br>
+                    <div id="af_login"></div>
+                    
+                    <input type="password" class="form"  minlength="8" id="log_password" placeholder="Hasło" required> 
+                    <div id="af_password"></div>
                    
                     <div id="remember_div">
                         <input id="s1" type="checkbox" class="switch">
                         <p id="switchText">Zapamiętaj moją sesje</p>
                     </div>
-                    <button id="btn_zaloguj_dalej" class="btn_primary">Dalej</button>
+                    <button type="submit" id="btn_zaloguj_dalej" class="btn_primary">Dalej</button>
                     <a class="link" href="./rejestracja.html">nie mam konta</a>
-                </div>
+
+                </form>
+                <!-- </div> -->
             </div>
         </div>
-        
+            <!-- ------------- Log in form ---------------- -->
       
        
 
     </div>
     
     <script src="./slider.js"></script>
+    <script src="./formValidation.js"></script>
+
 </body>
 </html>
