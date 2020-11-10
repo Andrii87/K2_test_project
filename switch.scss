@@ -1,13 +1,20 @@
 @supports(-webkit-appearance: none) or (-moz-appearance: none) {
     input[type='checkbox'] {
       --active: #F49E4C;
-      --active-inner: #fff;
+    //   --active-inner: #fff;
+      --active-inner:white;
       --focus: 2px rgba(39, 94, 254, .3);
       --border: #BBC1E1;
       --border-hover: #F49E4C;
-      --background: #fff;
-      --disabled: #F6F8FF;
-      --disabled-inner: #E1E6F9;
+    //   --background: #fff;
+      --background: gray;
+      
+
+    //   --disabled: #F6F8FF;
+      --disabled: gray;
+    //   --disabled-inner: #E1E6F9;
+    //   --disabled-inner: white;
+      --disabled-inner: gray;
       -webkit-appearance: none;
       -moz-appearance: none;
       height: 21px;
