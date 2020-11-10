@@ -558,8 +558,13 @@ color: white;
     font-weight: 700;
     font-family:'Open Sans', sans-serif;
     color: #F49E4C;
-    /* pointer-events: auto; */
+
     padding: 5px;
     cursor: pointer;
     text-decoration: none;
+}
+.link:hover{
+    color: #E06D00;
+    transition: 0.3s;
+
 }
