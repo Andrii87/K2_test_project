@@ -570,7 +570,8 @@ color: white;
     transition: 0.3s;
 
 }
-#logowanie hr{
+#rejestracja hr{
+    border-top: 1px solid #E06D00;
     width:75px;
     top: 15px;
     position: relative;
