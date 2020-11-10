@@ -57,31 +57,34 @@
                 </div>
             </div>
             
-            <!-- ------------- Log in form ---------------- -->
-
+            
             <div id="contentR">
-                <div id="rejestracja" class="content">
+                    <!-- ------------- Log in form ---------------- -->
+                <form id="rejestracja" class="content"  action="/" onsubmit="return validateForm()" method="GET">
+                   
                     <h1 id="title">Zarejestruj się </h1>
 
-                     <input type="text" class="form" id="login" placeholder="Login" > 
-                    <input type="password" class="form" id="password" placeholder="Hasło"> 
+                     <input type="text" class="form" id="login" placeholder="Login" required > 
+                    <input type="password" class="form" id="password" placeholder="Hasło" required> 
                     
                     <hr>
 
-                    <input type="text" class="form" id="nameSurname" placeholder="Imię i nazwisko" > 
-                    <input type="email" class="form" id="email" placeholder="Adres e-mail" > 
+                    <input type="text" class="form" id="nameSurname" placeholder="Imię i nazwisko" required > 
+                    <input type="email" class="form" id="email" placeholder="Adres e-mail"  required> 
                    
                     <div id="zgoda"> 
-                        <input type="checkbox" id="I_agree" name="I_agree" >
+                        <input type="checkbox" id="I_agree" name="I_agree"  required>
                         <label for="I_agree">Wyrażam zgode na lorem ipsum </label>
                     </div>
 
-                    <button id="btn_zaloz_konto" class="btn_primary">Dalej</button>
+                    <button  type="submit" id="btn_zaloz_konto" class="btn_primary">Dalej</button>
                     <a class="link" href="./Logowanie.html">Chcę sie zalogowac</a>
                   
 
-                </div>
+                </form>
+                <!-- ------------- Log in form ---------------- -->
             </div>
+
         </div>
         
       
@@ -90,5 +93,6 @@
     </div>
     
     <script src="./slider.js"></script>
+    <script src="./formValidation.js"></script>
 </body>
 </html>
