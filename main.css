@@ -163,7 +163,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.07);
   }
 }
 .content{
-    width: 240px;
+    /* width: 240px; */
     /* height: 228px; */
 
     display: flex;
@@ -569,4 +569,8 @@ color: white;
     color: #E06D00;
     transition: 0.3s;
 
+}
+#logowanie hr{
+    width:75px;
+ margin-top: auto;
 }
