@@ -572,5 +572,10 @@ color: white;
 }
 #logowanie hr{
     width:75px;
- margin-top: auto;
+    top: 15px;
+    position: relative;
+    margin-top: auto; 
+}
+#zgoda{
+    padding: 20px;
 }
