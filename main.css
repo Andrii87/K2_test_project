@@ -551,3 +551,15 @@ color: white;
     /* margin 5px; */
     padding: 5px;
 }
+.link{
+    /* display: flex;
+    flex-direction: row; */
+    font-size: 12px;
+    font-weight: 700;
+    font-family:'Open Sans', sans-serif;
+    color: #F49E4C;
+    /* pointer-events: auto; */
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
