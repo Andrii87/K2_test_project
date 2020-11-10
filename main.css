@@ -541,3 +541,13 @@ color: white;
     /* background-color: aquamarine; */
 
 }
+#switchText{
+    display: inline;
+}
+#remember_div{
+   
+    position: relative;
+    left: -40px;
+    /* margin 5px; */
+    padding: 5px;
+}
