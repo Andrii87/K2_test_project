@@ -195,6 +195,7 @@ h1{
     width: 230px;
     height: 40px;
     opacity: 75%;
+    margin-top: 5px;
     
 }
 .btn_primary:hover{
@@ -562,6 +563,7 @@ color: white;
     padding: 5px;
     cursor: pointer;
     text-decoration: none;
+    padding: 10px;
 }
 .link:hover{
     color: #E06D00;
