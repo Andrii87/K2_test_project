@@ -47,7 +47,6 @@ input:checked[type="checkbox"].switch::before{
   
   // justify-content: center;
 
-  /* color: red; */
 
 }
 .chechbox-container label{
@@ -72,7 +71,7 @@ input:checked[type="checkbox"].switch::before{
   border-radius: 0.15em;
   margin-right: .5em;
   
-  transform: 0.5s;
+  transition: 0.5s;
 }
 
 /* box hover efects */
@@ -85,13 +84,13 @@ input:checked[type="checkbox"].switch::before{
   align-items: center;
 
   content:'\002714';
-  transform: 0.5s;
+  transition: 0.5s;
   color: white;
 }
 .chechbox-container input[type='checkbox']:focus + label::before{
   box-shadow: 0 0 10px gray;
   background-color:#E06D00;
-  transform: 0.5s;
+  transition: 0.5s;
 }
 
 /* checkmark and box when checked */
@@ -104,5 +103,5 @@ input:checked[type="checkbox"].switch::before{
   align-items: center;
   /* checkmark color */
   color: white;  
-  transform: 0.5s;
+  transition: 0.5s;
 }
